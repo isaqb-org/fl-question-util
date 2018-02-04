@@ -1,4 +1,4 @@
-= image:./isaqb-logo.png[] iSAQB Foundation Examination Question Utilities
+= image:./logo.png[] iSAQB Foundation Examination Question Utilities
 
 This repository contains some (very simple) utilities
 to automate a few tasks concerning foundation level
@@ -10,14 +10,29 @@ WARNING: This repository **[red]#MUST NEVER#** contain any (productive) examinat
 
 === Tasks
 
-==== Merge changed questions back to production
+==== Compare Changed and Original Questions
+The FLWG copies some questions out to "proposed-changes-XXX" files and performs
+changes, reviews etc. on those "proposed-changes" only.
+
+This function shows the old and new versions of those "proposed-changes" to
+enable a manual check (afterwards usually a merge is performed, see below).
+
+==== Merge Changed Questions back to Production
+The FLWG copies some questions out to "proposed-changes-XXX" files and performs
+changes, reviews etc. on those "proposed-changes" only.
+
+After questions have been reviewed and approved, those changes have to be merged
+back into the production questions. Users should have done a
+"Compare Changed and Original Questions" first...
 
 
-==== Statistics about questions
+==== Calculate Statistics about Questions
+Of course, we could cound manually, but...
+
 * count number of P, K and A questions,
 * count number of possible answers
-* count distribution of points (1, 2 or other) in questions
-*
+* count distribution of points (1, 2 or other) in question types P, K and A
+* count length of questions
 
 === Questions format
 
@@ -28,4 +43,4 @@ WARNING: This repository **[red]#MUST NEVER#** contain any (productive) examinat
 
 [] encapsulate everything in a Docker container
 [] pass filename(s) as command line parameters
-[] 
+[]
