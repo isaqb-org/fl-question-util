@@ -1,0 +1,31 @@
+= image:./isaqb-logo.png[] iSAQB Foundation Examination Question Utilities
+
+This repository contains some (very simple) utilities
+to automate a few tasks concerning foundation level
+examination questions.
+
+WARNING: This repository **[red]#MUST NEVER#** contain any (productive) examination questions.
+
+== Prerequisites
+
+=== Tasks
+
+==== Merge changed questions back to production
+
+
+==== Statistics about questions
+* count number of P, K and A questions,
+* count number of possible answers
+* count distribution of points (1, 2 or other) in questions
+*
+
+=== Questions format
+
+
+== Usage
+
+(currently a wish-list...)
+
+[] encapsulate everything in a Docker container
+[] pass filename(s) as command line parameters
+[] 
